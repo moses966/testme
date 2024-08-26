@@ -1,0 +1,11 @@
+name: tests
+
+
+arbitrum-sepolia:
+  default_network: sepolia
+  networks:
+    sepolia:
+      provider:
+        api_key: $WEB3_ARBITRUM_SEPOLIA_ALCHEMY_API_KEY
+
+default_ecosystem: arbitrum
